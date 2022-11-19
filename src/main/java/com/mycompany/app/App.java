@@ -1,14 +1,15 @@
-package com.mycompany.app;/**
- klasu com.mycompany.app.App koja ima main methodu koja
-  parsira ulaz s konzole iz parametra args i vrši njegovu validaciju.
+package com.mycompany.app;
+
+/**
+ * klasu com.mycompany.app.App koja ima main methodu koja
+ * parsira ulaz s konzole iz parametra args i vrši njegovu validaciju.
  */
-
-
 
 public class App {
     /**
-    This is main method of this Application
-    @author Nejra Strsevic
+     * This is main method of this Application
+     * @author Nejra Strsevic
+     * @param args parametar
      */
     public static void main(String[] args){
 

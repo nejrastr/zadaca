@@ -30,7 +30,6 @@
 com.mycompany.app
 'C:/Users/Nejra/Desktop/Nejra/zadaca/src/main/java/com/mycompany/app/App.java'
 'C:/Users/Nejra/Desktop/Nejra/zadaca/src/main/java/com/mycompany/app/ExpressionEvaluator.java'
-'C:/Users/Nejra/Desktop/Nejra/zadaca/src/main/java/NekaKlasa.java'
 C:\Users\Nejra\.m2\repository\org\apache\maven\plugins\maven-javadoc-plugin\3.4.1\maven-javadoc-plugin-3.4.1.jar = 1668424659286
 C:\Users\Nejra\.m2\repository\org\apache\maven\maven-core\3.2.5\maven-core-3.2.5.jar = 1668424659281
 C:\Users\Nejra\.m2\repository\org\apache\maven\maven-settings-builder\3.2.5\maven-settings-builder-3.2.5.jar = 1668424658586
@@ -110,30 +109,25 @@ C:\Users\Nejra\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-ju
 C:\Users\Nejra\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar = 1668378243488
 C:\Users\Nejra\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar = 1668424662158
 C:\Users\Nejra\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar = 1668378243562
-C:\Users\Nejra\Desktop\Nejra\zadaca\src\main\java\NekaKlasa.java = 1668780075457
-C:\Users\Nejra\Desktop\Nejra\zadaca\src\main\java = 1668780075457
-C:\Users\Nejra\Desktop\Nejra\zadaca\target\generated-sources\annotations = 1668781256338
-C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\allclasses-index.html = 1668781309199
-C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\allpackages-index.html = 1668781309209
-C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\copy.svg = 1668781309501
-C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\element-list = 1668781308689
-C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\help-doc.html = 1668781309424
-C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\index-all.html = 1668781309302
-C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\index.html = 1668781309144
-C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\jquery-ui.overrides.css = 1668781309587
-C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\member-search-index.js = 1668781309221
-C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\module-search-index.js = 1668781309212
-C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\NekaKlasa.html = 1668781308671
-C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\overview-summary.html = 1668781309315
-C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\overview-tree.html = 1668781309097
-C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\package-search-index.js = 1668781309215
-C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\package-summary.html = 1668781308741
-C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\package-tree.html = 1668781308773
-C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\package-use.html = 1668781309003
-C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\script.js = 1668781309437
-C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\search-page.js = 1668781309530
-C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\search.html = 1668781309310
-C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\search.js = 1668781309526
-C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\stylesheet.css = 1668781309433
-C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\tag-search-index.js = 1668781309254
-C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\type-search-index.js = 1668781309218
+C:\Users\Nejra\Desktop\Nejra\zadaca\src\main\java = 1668876919928
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\generated-sources\annotations = 1668888519696
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\allclasses-index.html = 1668888810316
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\allpackages-index.html = 1668888810328
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\copy.svg = 1668888810438
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\element-list = 1668888810165
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\help-doc.html = 1668888810412
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\index-all.html = 1668888810367
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\index.html = 1668888810376
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\javadoc.bat = 1668888687635
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\jquery-ui.overrides.css = 1668888810489
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\member-search-index.js = 1668888810348
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\module-search-index.js = 1668888810331
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\overview-tree.html = 1668888810272
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\package-search-index.js = 1668888810337
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\script.js = 1668888810431
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\search-page.js = 1668888810456
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\search.html = 1668888810372
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\search.js = 1668888810446
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\stylesheet.css = 1668888810424
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\tag-search-index.js = 1668888810353
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\type-search-index.js = 1668888810343

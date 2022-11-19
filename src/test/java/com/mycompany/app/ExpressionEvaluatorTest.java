@@ -64,7 +64,7 @@ division testing
 
 @Test
 /**
-This test tests if operands are not used correctly
+ * This test tests if operands are not used correctly
  */
     void TestIncorrectUsage(){
         String str="( 19 * 2 + () )";
