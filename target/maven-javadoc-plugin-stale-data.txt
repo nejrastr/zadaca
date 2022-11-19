@@ -1,0 +1,139 @@
+@options
+@packages
+@argfile
+-classpath
+'C:/Users/Nejra/.m2/repository/org/apache/maven/plugins/maven-javadoc-plugin/3.4.1/maven-javadoc-plugin-3.4.1.jar;C:/Users/Nejra/.m2/repository/org/apache/maven/maven-core/3.2.5/maven-core-3.2.5.jar;C:/Users/Nejra/.m2/repository/org/apache/maven/maven-settings-builder/3.2.5/maven-settings-builder-3.2.5.jar;C:/Users/Nejra/.m2/repository/org/apache/maven/maven-repository-metadata/3.2.5/maven-repository-metadata-3.2.5.jar;C:/Users/Nejra/.m2/repository/org/apache/maven/maven-model-builder/3.2.5/maven-model-builder-3.2.5.jar;C:/Users/Nejra/.m2/repository/org/apache/maven/maven-aether-provider/3.2.5/maven-aether-provider-3.2.5.jar;C:/Users/Nejra/.m2/repository/org/eclipse/aether/aether-spi/1.0.0.v20140518/aether-spi-1.0.0.v20140518.jar;C:/Users/Nejra/.m2/repository/org/eclipse/aether/aether-impl/1.0.0.v20140518/aether-impl-1.0.0.v20140518.jar;C:/Users/Nejra/.m2/repository/org/eclipse/aether/aether-api/1.0.0.v20140518/aether-api-1.0.0.v20140518.jar;C:/Users/Nejra/.m2/repository/org/eclipse/aether/aether-util/1.0.0.v20140518/aether-util-1.0.0.v20140518.jar;C:/Users/Nejra/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.0.M1/org.eclipse.sisu.plexus-0.3.0.M1.jar;C:/Users/Nejra/.m2/repository/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar;C:/Users/Nejra/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar;C:/Users/Nejra/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.0.M1/org.eclipse.sisu.inject-0.3.0.M1.jar;C:/Users/Nejra/.m2/repository/org/sonatype/sisu/sisu-guice/3.2.3/sisu-guice-3.2.3-no_aop.jar;C:/Users/Nejra/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar;C:/Users/Nejra/.m2/repository/com/google/guava/guava/16.0.1/guava-16.0.1.jar;C:/Users/Nejra/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.21/plexus-interpolation-1.21.jar;C:/Users/Nejra/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.jar;C:/Users/Nejra/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar;C:/Users/Nejra/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar;C:/Users/Nejra/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar;C:/Users/Nejra/.m2/repository/org/apache/maven/maven-model/3.2.5/maven-model-3.2.5.jar;C:/Users/Nejra/.m2/repository/org/apache/maven/maven-settings/3.2.5/maven-settings-3.2.5.jar;C:/Users/Nejra/.m2/repository/org/apache/maven/maven-plugin-api/3.2.5/maven-plugin-api-3.2.5.jar;C:/Users/Nejra/.m2/repository/org/apache/maven/maven-artifact/3.2.5/maven-artifact-3.2.5.jar;C:/Users/Nejra/.m2/repository/org/apache/maven/reporting/maven-reporting-api/3.1.1/maven-reporting-api-3.1.1.jar;C:/Users/Nejra/.m2/repository/org/apache/maven/maven-archiver/3.6.0/maven-archiver-3.6.0.jar;C:/Users/Nejra/.m2/repository/org/codehaus/plexus/plexus-io/3.4.0/plexus-io-3.4.0.jar;C:/Users/Nejra/.m2/repository/org/codehaus/plexus/plexus-archiver/4.4.0/plexus-archiver-4.4.0.jar;C:/Users/Nejra/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar;C:/Users/Nejra/.m2/repository/org/iq80/snappy/snappy/0.4/snappy-0.4.jar;C:/Users/Nejra/.m2/repository/org/apache/maven/shared/maven-invoker/3.1.0/maven-invoker-3.1.0.jar;C:/Users/Nejra/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.3.3/maven-shared-utils-3.3.3.jar;C:/Users/Nejra/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar;C:/Users/Nejra/.m2/repository/org/apache/maven/shared/maven-common-artifact-filters/3.1.1/maven-common-artifact-filters-3.1.1.jar;C:/Users/Nejra/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar;C:/Users/Nejra/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar;C:/Users/Nejra/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar;C:/Users/Nejra/.m2/repository/org/apache/maven/shared/maven-artifact-transfer/0.13.1/maven-artifact-transfer-0.13.1.jar;C:/Users/Nejra/.m2/repository/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar;C:/Users/Nejra/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.11.1/doxia-sink-api-1.11.1.jar;C:/Users/Nejra/.m2/repository/org/apache/maven/doxia/doxia-logging-api/1.11.1/doxia-logging-api-1.11.1.jar;C:/Users/Nejra/.m2/repository/org/apache/maven/doxia/doxia-site-renderer/1.11.1/doxia-site-renderer-1.11.1.jar;C:/Users/Nejra/.m2/repository/org/apache/maven/doxia/doxia-core/1.11.1/doxia-core-1.11.1.jar;C:/Users/Nejra/.m2/repository/org/apache/maven/doxia/doxia-decoration-model/1.11.1/doxia-decoration-model-1.11.1.jar;C:/Users/Nejra/.m2/repository/org/apache/maven/doxia/doxia-skin-model/1.11.1/doxia-skin-model-1.11.1.jar;C:/Users/Nejra/.m2/repository/org/apache/maven/doxia/doxia-module-xhtml/1.11.1/doxia-module-xhtml-1.11.1.jar;C:/Users/Nejra/.m2/repository/org/apache/maven/doxia/doxia-module-xhtml5/1.11.1/doxia-module-xhtml5-1.11.1.jar;C:/Users/Nejra/.m2/repository/org/codehaus/plexus/plexus-i18n/1.0-beta-10/plexus-i18n-1.0-beta-10.jar;C:/Users/Nejra/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-30/plexus-container-default-1.0-alpha-30.jar;C:/Users/Nejra/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar;C:/Users/Nejra/.m2/repository/org/codehaus/plexus/plexus-velocity/1.2/plexus-velocity-1.2.jar;C:/Users/Nejra/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar;C:/Users/Nejra/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar;C:/Users/Nejra/.m2/repository/org/apache/velocity/velocity-tools/2.0/velocity-tools-2.0.jar;C:/Users/Nejra/.m2/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar;C:/Users/Nejra/.m2/repository/commons-digester/commons-digester/1.8/commons-digester-1.8.jar;C:/Users/Nejra/.m2/repository/commons-chain/commons-chain/1.1/commons-chain-1.1.jar;C:/Users/Nejra/.m2/repository/dom4j/dom4j/1.1/dom4j-1.1.jar;C:/Users/Nejra/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar;C:/Users/Nejra/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar;C:/Users/Nejra/.m2/repository/org/apache/maven/wagon/wagon-provider-api/2.4/wagon-provider-api-2.4.jar;C:/Users/Nejra/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar;C:/Users/Nejra/.m2/repository/org/apache/commons/commons-text/1.9/commons-text-1.9.jar;C:/Users/Nejra/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar;C:/Users/Nejra/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar;C:/Users/Nejra/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar;C:/Users/Nejra/.m2/repository/org/apache/httpcomponents/httpcore/4.4.15/httpcore-4.4.15.jar;C:/Users/Nejra/.m2/repository/com/thoughtworks/qdox/qdox/2.0.1/qdox-2.0.1.jar;C:/Users/Nejra/.m2/repository/org/codehaus/plexus/plexus-java/1.1.0/plexus-java-1.1.0.jar;C:/Users/Nejra/.m2/repository/org/ow2/asm/asm/9.2/asm-9.2.jar;C:/Users/Nejra/.m2/repository/org/codehaus/plexus/plexus-utils/3.4.2/plexus-utils-3.4.2.jar;C:/Users/Nejra/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar;C:/Users/Nejra/.m2/repository/org/codehaus/plexus/plexus-interactivity-api/1.1/plexus-interactivity-api-1.1.jar;C:/Users/Nejra/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.1/junit-jupiter-api-5.9.1.jar;C:/Users/Nejra/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar;C:/Users/Nejra/.m2/repository/org/junit/platform/junit-platform-commons/1.9.1/junit-platform-commons-1.9.1.jar;C:/Users/Nejra/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'1.8'
+-sourcepath
+'C:/Users/Nejra/Desktop/Nejra/zadaca/src/main/java;C:/Users/Nejra/Desktop/Nejra/zadaca/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2022. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Nejra/Desktop/Nejra/zadaca/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'my-app 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' 'C:/Users/Nejra/Desktop/Nejra/zadaca/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'my-app 1.0-SNAPSHOT API'
+com.mycompany.app
+'C:/Users/Nejra/Desktop/Nejra/zadaca/src/main/java/com/mycompany/app/App.java'
+'C:/Users/Nejra/Desktop/Nejra/zadaca/src/main/java/com/mycompany/app/ExpressionEvaluator.java'
+'C:/Users/Nejra/Desktop/Nejra/zadaca/src/main/java/NekaKlasa.java'
+C:\Users\Nejra\.m2\repository\org\apache\maven\plugins\maven-javadoc-plugin\3.4.1\maven-javadoc-plugin-3.4.1.jar = 1668424659286
+C:\Users\Nejra\.m2\repository\org\apache\maven\maven-core\3.2.5\maven-core-3.2.5.jar = 1668424659281
+C:\Users\Nejra\.m2\repository\org\apache\maven\maven-settings-builder\3.2.5\maven-settings-builder-3.2.5.jar = 1668424658586
+C:\Users\Nejra\.m2\repository\org\apache\maven\maven-repository-metadata\3.2.5\maven-repository-metadata-3.2.5.jar = 1668424658776
+C:\Users\Nejra\.m2\repository\org\apache\maven\maven-model-builder\3.2.5\maven-model-builder-3.2.5.jar = 1668424659037
+C:\Users\Nejra\.m2\repository\org\apache\maven\maven-aether-provider\3.2.5\maven-aether-provider-3.2.5.jar = 1668424659053
+C:\Users\Nejra\.m2\repository\org\eclipse\aether\aether-spi\1.0.0.v20140518\aether-spi-1.0.0.v20140518.jar = 1668424659047
+C:\Users\Nejra\.m2\repository\org\eclipse\aether\aether-impl\1.0.0.v20140518\aether-impl-1.0.0.v20140518.jar = 1668424659625
+C:\Users\Nejra\.m2\repository\org\eclipse\aether\aether-api\1.0.0.v20140518\aether-api-1.0.0.v20140518.jar = 1668424659343
+C:\Users\Nejra\.m2\repository\org\eclipse\aether\aether-util\1.0.0.v20140518\aether-util-1.0.0.v20140518.jar = 1668424659344
+C:\Users\Nejra\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.3.0.M1\org.eclipse.sisu.plexus-0.3.0.M1.jar = 1668424659469
+C:\Users\Nejra\.m2\repository\javax\enterprise\cdi-api\1.0\cdi-api-1.0.jar = 1668424659406
+C:\Users\Nejra\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar = 1668424659476
+C:\Users\Nejra\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.3.0.M1\org.eclipse.sisu.inject-0.3.0.M1.jar = 1668424659642
+C:\Users\Nejra\.m2\repository\org\sonatype\sisu\sisu-guice\3.2.3\sisu-guice-3.2.3-no_aop.jar = 1668424659770
+C:\Users\Nejra\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar = 1668424659603
+C:\Users\Nejra\.m2\repository\com\google\guava\guava\16.0.1\guava-16.0.1.jar = 1668424660755
+C:\Users\Nejra\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.21\plexus-interpolation-1.21.jar = 1668424659747
+C:\Users\Nejra\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.5.2\plexus-classworlds-2.5.2.jar = 1667819829969
+C:\Users\Nejra\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar = 1666554995138
+C:\Users\Nejra\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar = 1666555026198
+C:\Users\Nejra\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar = 1666555026250
+C:\Users\Nejra\.m2\repository\org\apache\maven\maven-model\3.2.5\maven-model-3.2.5.jar = 1668424659945
+C:\Users\Nejra\.m2\repository\org\apache\maven\maven-settings\3.2.5\maven-settings-3.2.5.jar = 1668424659967
+C:\Users\Nejra\.m2\repository\org\apache\maven\maven-plugin-api\3.2.5\maven-plugin-api-3.2.5.jar = 1668424660110
+C:\Users\Nejra\.m2\repository\org\apache\maven\maven-artifact\3.2.5\maven-artifact-3.2.5.jar = 1668424660122
+C:\Users\Nejra\.m2\repository\org\apache\maven\reporting\maven-reporting-api\3.1.1\maven-reporting-api-3.1.1.jar = 1668424660122
+C:\Users\Nejra\.m2\repository\org\apache\maven\maven-archiver\3.6.0\maven-archiver-3.6.0.jar = 1668424660155
+C:\Users\Nejra\.m2\repository\org\codehaus\plexus\plexus-io\3.4.0\plexus-io-3.4.0.jar = 1668424660598
+C:\Users\Nejra\.m2\repository\org\codehaus\plexus\plexus-archiver\4.4.0\plexus-archiver-4.4.0.jar = 1668424660518
+C:\Users\Nejra\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar = 1668424660796
+C:\Users\Nejra\.m2\repository\org\iq80\snappy\snappy\0.4\snappy-0.4.jar = 1666607577989
+C:\Users\Nejra\.m2\repository\org\apache\maven\shared\maven-invoker\3.1.0\maven-invoker-3.1.0.jar = 1668424660539
+C:\Users\Nejra\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.3.3\maven-shared-utils-3.3.3.jar = 1666607575810
+C:\Users\Nejra\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar = 1668424660662
+C:\Users\Nejra\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.1.1\maven-common-artifact-filters-3.1.1.jar = 1668424660721
+C:\Users\Nejra\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar = 1666555026426
+C:\Users\Nejra\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar = 1666555026079
+C:\Users\Nejra\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar = 1666555026126
+C:\Users\Nejra\.m2\repository\org\apache\maven\shared\maven-artifact-transfer\0.13.1\maven-artifact-transfer-0.13.1.jar = 1666607580943
+C:\Users\Nejra\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar = 1666607581273
+C:\Users\Nejra\.m2\repository\org\apache\maven\doxia\doxia-sink-api\1.11.1\doxia-sink-api-1.11.1.jar = 1668424660732
+C:\Users\Nejra\.m2\repository\org\apache\maven\doxia\doxia-logging-api\1.11.1\doxia-logging-api-1.11.1.jar = 1668424660795
+C:\Users\Nejra\.m2\repository\org\apache\maven\doxia\doxia-site-renderer\1.11.1\doxia-site-renderer-1.11.1.jar = 1668424660968
+C:\Users\Nejra\.m2\repository\org\apache\maven\doxia\doxia-core\1.11.1\doxia-core-1.11.1.jar = 1668424661232
+C:\Users\Nejra\.m2\repository\org\apache\maven\doxia\doxia-decoration-model\1.11.1\doxia-decoration-model-1.11.1.jar = 1668424660940
+C:\Users\Nejra\.m2\repository\org\apache\maven\doxia\doxia-skin-model\1.11.1\doxia-skin-model-1.11.1.jar = 1668424660949
+C:\Users\Nejra\.m2\repository\org\apache\maven\doxia\doxia-module-xhtml\1.11.1\doxia-module-xhtml-1.11.1.jar = 1668424660975
+C:\Users\Nejra\.m2\repository\org\apache\maven\doxia\doxia-module-xhtml5\1.11.1\doxia-module-xhtml5-1.11.1.jar = 1668424661050
+C:\Users\Nejra\.m2\repository\org\codehaus\plexus\plexus-i18n\1.0-beta-10\plexus-i18n-1.0-beta-10.jar = 1667819829937
+C:\Users\Nejra\.m2\repository\org\codehaus\plexus\plexus-container-default\1.0-alpha-30\plexus-container-default-1.0-alpha-30.jar = 1666555026602
+C:\Users\Nejra\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar = 1666554979833
+C:\Users\Nejra\.m2\repository\org\codehaus\plexus\plexus-velocity\1.2\plexus-velocity-1.2.jar = 1666607581539
+C:\Users\Nejra\.m2\repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar = 1666607583754
+C:\Users\Nejra\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar = 1666607583676
+C:\Users\Nejra\.m2\repository\org\apache\velocity\velocity-tools\2.0\velocity-tools-2.0.jar = 1666555027906
+C:\Users\Nejra\.m2\repository\commons-beanutils\commons-beanutils\1.7.0\commons-beanutils-1.7.0.jar = 1666555027507
+C:\Users\Nejra\.m2\repository\commons-digester\commons-digester\1.8\commons-digester-1.8.jar = 1666555027480
+C:\Users\Nejra\.m2\repository\commons-chain\commons-chain\1.1\commons-chain-1.1.jar = 1666555027578
+C:\Users\Nejra\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar = 1666555027762
+C:\Users\Nejra\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar = 1666555028313
+C:\Users\Nejra\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar = 1666607596134
+C:\Users\Nejra\.m2\repository\org\apache\maven\wagon\wagon-provider-api\2.4\wagon-provider-api-2.4.jar = 1668424661050
+C:\Users\Nejra\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar = 1668424661343
+C:\Users\Nejra\.m2\repository\org\apache\commons\commons-text\1.9\commons-text-1.9.jar = 1668424661162
+C:\Users\Nejra\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar = 1668424661898
+C:\Users\Nejra\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar = 1668424661306
+C:\Users\Nejra\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar = 1668424661497
+C:\Users\Nejra\.m2\repository\org\apache\httpcomponents\httpcore\4.4.15\httpcore-4.4.15.jar = 1668424661747
+C:\Users\Nejra\.m2\repository\com\thoughtworks\qdox\qdox\2.0.1\qdox-2.0.1.jar = 1668424662517
+C:\Users\Nejra\.m2\repository\org\codehaus\plexus\plexus-java\1.1.0\plexus-java-1.1.0.jar = 1668424661745
+C:\Users\Nejra\.m2\repository\org\ow2\asm\asm\9.2\asm-9.2.jar = 1668424661770
+C:\Users\Nejra\.m2\repository\org\codehaus\plexus\plexus-utils\3.4.2\plexus-utils-3.4.2.jar = 1668424662145
+C:\Users\Nejra\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar = 1668424662256
+C:\Users\Nejra\.m2\repository\org\codehaus\plexus\plexus-interactivity-api\1.1\plexus-interactivity-api-1.1.jar = 1666607579525
+C:\Users\Nejra\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar = 1668424662237
+C:\Users\Nejra\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar = 1668378243488
+C:\Users\Nejra\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar = 1668424662158
+C:\Users\Nejra\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar = 1668378243562
+C:\Users\Nejra\Desktop\Nejra\zadaca\src\main\java\NekaKlasa.java = 1668780075457
+C:\Users\Nejra\Desktop\Nejra\zadaca\src\main\java = 1668780075457
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\generated-sources\annotations = 1668781256338
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\allclasses-index.html = 1668781309199
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\allpackages-index.html = 1668781309209
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\copy.svg = 1668781309501
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\element-list = 1668781308689
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\help-doc.html = 1668781309424
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\index-all.html = 1668781309302
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\index.html = 1668781309144
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\jquery-ui.overrides.css = 1668781309587
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\member-search-index.js = 1668781309221
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\module-search-index.js = 1668781309212
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\NekaKlasa.html = 1668781308671
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\overview-summary.html = 1668781309315
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\overview-tree.html = 1668781309097
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\package-search-index.js = 1668781309215
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\package-summary.html = 1668781308741
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\package-tree.html = 1668781308773
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\package-use.html = 1668781309003
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\script.js = 1668781309437
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\search-page.js = 1668781309530
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\search.html = 1668781309310
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\search.js = 1668781309526
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\stylesheet.css = 1668781309433
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\tag-search-index.js = 1668781309254
+C:\Users\Nejra\Desktop\Nejra\zadaca\target\site\apidocs\type-search-index.js = 1668781309218

@@ -1,4 +1,4 @@
-package com.mycompany.app;/*
+package com.mycompany.app;/**
  klasu com.mycompany.app.App koja ima main methodu koja
   parsira ulaz s konzole iz parametra args i vrši njegovu validaciju.
  */
@@ -6,7 +6,7 @@ package com.mycompany.app;/*
 
 
 public class App {
-    /*
+    /**
     This is main method of this Application
     @author Nejra Strsevic
      */

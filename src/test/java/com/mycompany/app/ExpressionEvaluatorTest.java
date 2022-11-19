@@ -4,7 +4,9 @@ package com.mycompany.app;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
-/*
+/**
+ *
+
 ExpressionEvaluator is class that check our algorithm and its logic
  */
  class ExpressionEvaluatorTest {
@@ -15,7 +17,7 @@ ExpressionEvaluator is class that check our algorithm and its logic
 
 
     @Test
-    /*
+    /**
     Test for multiplication
      */
     void TestMnozenje(){
@@ -23,7 +25,7 @@ ExpressionEvaluator is class that check our algorithm and its logic
         assertEquals(8D, expression.evaluate(str));
     }
     @Test
-    /*
+    /**
     Test for sqrt()
      */
     void TestSqrt(){
@@ -32,7 +34,7 @@ ExpressionEvaluator is class that check our algorithm and its logic
 
     }
     @Test
-    /*
+    /**
     Test for checking if there is incorrect number of operands
      */
     void TestOperands(){
@@ -40,7 +42,7 @@ ExpressionEvaluator is class that check our algorithm and its logic
         assertThrows(RuntimeException.class,()-> expression.evaluate(str));
     }
 @Test
-/*
+/**
 Test for empty strings
  */
     void TestEmpty(){
@@ -50,7 +52,7 @@ Test for empty strings
 }
 
 @Test
-/*
+/**
 division testing
 
  */
@@ -61,7 +63,7 @@ division testing
 }
 
 @Test
-/*
+/**
 This test tests if operands are not used correctly
  */
     void TestIncorrectUsage(){
